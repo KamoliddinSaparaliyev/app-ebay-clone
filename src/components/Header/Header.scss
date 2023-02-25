@@ -1,0 +1,22 @@
+.header{
+    margin-top: 10px;
+}
+.header_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  
+}
+.hero_header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.hero_header-last{
+    display: flex;
+    align-items: center;
+}
