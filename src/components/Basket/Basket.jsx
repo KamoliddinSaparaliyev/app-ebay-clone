@@ -10,7 +10,6 @@ const Basket = () => {
     const dispatch = useDispatch()
     const basketData = useSelector(state => state.basket);
     const wishlistData = useSelector(state => state.like);
-    console.log(basketData);
 
     const handleRemoveFromBasket = (product) => {
         dispatch({

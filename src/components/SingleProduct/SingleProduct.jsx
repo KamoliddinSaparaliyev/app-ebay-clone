@@ -29,8 +29,8 @@ const SingleProduct = () => {
     }
     const handleAddToBasket = (product) => {
         dispatch({
-            type: " ADD_TO_BASKET",
-            payload: product
+            type: "ADD_TO_BASKET",
+            product
         });
     };
     return (
@@ -119,7 +119,7 @@ const SingleProduct = () => {
                                 </div>
                                 <div className='btn-group'>
                                     <button className='now_btn'>Buy It Now</button>
-                                    {basketData.basketProducts?.find(p => p.id === data.id) ? <Link className='add-to-card-single' to='/basket' >
+                                    {basketData.basketProducts.find(p => p.id === data.id) ? <Link className='add-to-card-single' to='/basket' >
                                         View to Cart
                                     </Link> : <button className='add-to-card-single' onClick={() => handleAddToBasket(data)}>
                                         <CgShoppingCart className='shop_icon' />
