@@ -1,0 +1,140 @@
+.category-container {
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+.feature-section {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.feature-title {
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.feature-desc {
+    margin-left: 16px;
+    margin-top: 24px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.feature-desc-last {
+    margin-left: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+}
+
+.single__category-card {
+    width: 200px;
+}
+
+.single__category-image {
+    object-fit: cover;
+}
+
+.single__category-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.category-products-wrapper {
+    border-top: 1px solid #ccc;
+    padding-top: 35px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    gap: 16px;
+
+    img {
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+}
+
+.category-products {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    .category-products-info {
+        padding: 5px 0;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            margin-left: 5px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            color: #111820;
+        }
+
+        p {
+            margin-left: 5px;
+            width: 200px;
+            font-size: 12px;
+            line-height: 14px;
+            color: #707070;
+            overflow: hidden;
+            height: 28px;
+        }
+
+        strong {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            color: #111820;
+        }
+    }
+
+    .category-wrapper {
+        margin-top: auto;
+        display: flex;
+        padding: 0 5px;
+    }
+}
+
+.category-iconns {
+    margin-left: auto;
+    margin-top: auto;
+    border: 0.875px solid #E5E5E5;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #3665F3;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+
+    .heart_icon {
+        height: 14px;
+        font-size: 14px;
+
+        &:active {
+            transform: scale(.7);
+        }
+    }
+}

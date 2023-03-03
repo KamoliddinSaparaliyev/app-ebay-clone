@@ -1,0 +1,180 @@
+.auth_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.auth_box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.auth_main-title {
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    color: #191919;
+}
+
+.auth_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 100px;
+
+}
+
+.auth_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+
+
+    input {
+        width: 281px;
+        height: 40px;
+        padding-left: 16px;
+        background: #F7F7F7;
+        border: 1px solid #8F8F8F;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #191919;
+        outline: none;
+
+        &::placeholder {
+            color: #191919;
+        }
+    }
+}
+
+.form-inner {
+    display: flex;
+    gap: 24px;
+
+    input {
+        width: 119px;
+    }
+}
+
+.auth_info {
+    width: 320px;
+}
+
+.create_btn {
+    width: 300px;
+    padding: 15px 0;
+    background: #3665f3;
+    border: 1px solid #C7C7C7;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #567cf7;
+    }
+}
+
+.google_box {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    font-weight: 700;
+    padding: 16px 54px 15px 21px;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.border-line {
+    position: absolute;
+    height: 400px;
+    text-align: center;
+    margin: auto 0;
+    display: flex;
+    right: -83px;
+    z-index: -1;
+    top: -53px;
+
+    justify-content: center;
+    border-right: 1px solid #191919;
+}
+
+.or {
+    padding: 1px;
+    background-color: #fff;
+}
+
+.auth-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.auth_footer {
+    border-top: 1px solid #ccc;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.auth_list {
+    margin-top: 200px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.auth_login {
+    margin-top: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.login_box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.login_form {
+    margin-top: 45px;
+}
+
+center p {
+    margin-top: 5 px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.hello_title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #151E27;
+}
+
+.or_line {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    hr {
+        width: 100%;
+        border: #ccc 1px solid;
+    }
+}
+
+.google_custom {
+    margin-top: 30px;
+}

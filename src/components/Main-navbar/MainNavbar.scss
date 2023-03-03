@@ -1,0 +1,29 @@
+.main_navbar {
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.navbar_item-link {
+    color: #555;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.navbar_item-activelink {
+    color: #000;
+    font-weight: 700;
+    border-bottom: 2px solid #555555;
+    padding-bottom: 9px;
+}
+
+.saved_icon {
+    font-size: 11px;
+    margin-right: 7px;
+}

@@ -1,0 +1,50 @@
+.single-swiper {
+    position: relative;
+    width: 581px;
+}
+
+.last-swiper {
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: auto;
+    }
+
+    img {
+        object-fit: contain;
+        width: 100px;
+        height: 100px;
+    }
+
+    .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .swiper-slide-thumb-active {
+        opacity: 1;
+    }
+}
+
+
+
+.mySwiper2 {
+    top: 13px;
+    right: -30px;
+    position: absolute;
+    width: 500px;
+    margin-left: 0;
+
+    div {
+        margin-right: auto;
+        width: auto;
+    }
+
+    img {
+        overflow: hidden;
+        width: 510px;
+    }
+}
