@@ -60,9 +60,21 @@ const Wishlist = () => {
                                         </button>
                                     </div>
                                 </div>
+
                             </div>)
                     }
                 </div>
+                <ul className='single-footer-first basket-footer'>
+                    <li><a href="https://www.ebay.com">About eBay</a></li>
+                    <li><a href="https://www.ebay.com">Announcements</a></li>
+                    <li><a href="https://www.ebay.com">Community</a></li>
+                    <li><a href="https://www.ebay.com">Security Center</a></li>
+                    <li><a href="https://www.ebay.com">Seller Center</a></li>
+                    <li><a href="https://www.ebay.com">Policies</a></li>
+                    <li><a href="https://www.ebay.com">Affiliates</a></li>
+                    <li><a href="https://www.ebay.com">Help & Contact</a></li>
+                    <li><a href="https://www.ebay.com">Site Map</a></li>
+                </ul>
             </Container >
         </div >
     )
